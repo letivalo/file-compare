@@ -1,7 +1,7 @@
 
 # File Compare Project
 
-A simple file comparison utility that compares files between two source directories and optionally copies or moves the smaller files to a destination directory.
+A simple file comparison utility that compares files of the same name but different file size between two source directories, then copies or moves the smaller of the two files to a destination directory.
 
 ## Table of Contents
 
@@ -35,51 +35,51 @@ The File Compare Project is a console application that allows users to compare i
 ## Setup
 
 1. Clone the repository:
-    \`\`\`sh
-    git clone https://github.com/letivalo/file-compare-project.git
-    \`\`\`
+    ```sh
+    git clone https://github.com/letivalo/file-compare.git
+    ```
 
 2. Navigate to the project directory:
-    \`\`\`sh
+    ```sh
     cd file-compare-project
-    \`\`\`
+    ```
 
 3. Restore the necessary packages:
-    \`\`\`sh
+    ```sh
     dotnet restore
-    \`\`\`
+    ```
 
 ## Usage
 
 1. Update the \`config.json\` file with your directories:
-    \`\`\`json
+    ```json
     {
       "SourceFolder1": "path/to/source1",
       "SourceFolder2": "path/to/source2",
       "DestinationFolder": "path/to/destination",
       "LogFile": "path/to/logfile.log"
     }
-    \`\`\`
+    ```
 
 2. Build the project:
-    \`\`\`sh
+    ```sh
     dotnet build
-    \`\`\`
+    ```
 
 3. Run the project:
-    \`\`\`sh
+    ```sh
     dotnet run --project src/FileCompareProject
-    \`\`\`
+    ```
 
 ## Example
 
-\`\`\`
+```sh
 dotnet run --project src/FileCompareProject
-\`\`\`
+```
 
 Sample output:
 
-\`\`\`
+```
 File Comparison v0.1.0 by letivalo
 -------------------------------------------------------
 Config file path: config.json
@@ -93,7 +93,7 @@ Do you want to proceed with the file operations? (Y/N) y
 Do you want to (1) Copy the smaller files or (2) Move the smaller files? 1
 Beginning file operations, this may take a moment...
 File operations completed.
-\`\`\`
+```
 
 ## License
 
@@ -101,8 +101,8 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 ## Contact
 
-For any inquiries, please feel free to shoot me an email at [letivalo.dev@tuta.io](mailto:letivalo.dev@tuta.io) or visit the project repository at
-[project repository](https://github.com/letivalo/filecompare/issues).
+For any inquiries, please feel free to shoot me an email at [letivalo.dev@tuta.io](mailto:letivalo.dev@tuta.io) or visit the project repository on
+[Github](https://github.com/letivalo/file-compare/issues).
 
 ---
 
