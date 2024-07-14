@@ -1,0 +1,6 @@
+﻿{
+  "sourceFolder1": "C:\\Users\\You\\Desktop\\TestFolder1",
+  "sourceFolder2": "C:\\Users\\You\\Desktop\\TestFolder2",
+  "destinationFolder": "C:\\Users\\You\\Desktop\\FileCompareOutput",
+  "logFile": "C:\\Users\\You\\Desktop\\filecomparison_log.txt"
+}
